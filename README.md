@@ -41,9 +41,9 @@
   <tbody>
     <tr>
       <td>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/img/sample1.jpg" width="250">
+        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/samples/sample1.jpg" width="250">
         <hr>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/img/sample2.jpg" width="250">
+        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/samples/sample2.jpg" width="250">
       </td>
       <td></td>
       <td></td>
@@ -52,9 +52,9 @@
     </tr>
     <tr>
       <td>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/img/sample1.u2net.onnx.jpg" width="250">
+        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/samples/sample1.u2net.onnx.jpg" width="250">
         <hr>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/img/sample2.u2net.onnx.jpg" width="250">
+        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/samples/sample2.u2net.onnx.jpg" width="250">
       </td>
       <td>
         <a target="_blank" href="https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net.onnx">u2net.onnx</a>
@@ -67,9 +67,9 @@
     </tr>
     <tr>
       <td>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/img/sample1.u2netp.onnx.jpg" width="250">
+        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/samples/sample1.u2netp.onnx.jpg" width="250">
         <hr>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/img/sample2.u2netp.onnx.jpg" width="250">
+        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/samples/sample2.u2netp.onnx.jpg" width="250">
       </td>
       <td>
         <a target="_blank" href="https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2netp.onnx">u2netp.onnx</a>
@@ -82,9 +82,9 @@
     </tr>
     <tr>
       <td>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/img/sample1.u2net_human_seg.onnx.jpg" width="250">
+        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/samples/sample1.u2net_human_seg.onnx.jpg" width="250">
         <hr>
-         <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/img/sample2.u2net_human_seg.onnx.jpg" width="250">
+         <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/samples/sample2.u2net_human_seg.onnx.jpg" width="250">
       </td>
       <td>
         <a target="_blank" href="https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net_human_seg.onnx">u2net_human_seg.onnx</a>
@@ -97,9 +97,9 @@
     </tr>
     <tr>
       <td>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/img/sample1.silueta.onnx.jpg" width="250">
+        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/samples/sample1.silueta.onnx.jpg" width="250">
         <hr>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/img/sample2.silueta.onnx.jpg" width="250">
+        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/samples/sample2.silueta.onnx.jpg" width="250">
       </td>
       <td>
         <a target="_blank" href="https://github.com/danielgatis/rembg/releases/download/v0.0.0/silueta.onnx">silueta.onnx</a>
