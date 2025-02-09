@@ -26,88 +26,68 @@
 </div>
 
 
-#### Models
+#### Sample Outputs
+
+<p>Note that models <code>u2net.onnx</code> and <code>u2net_human_seg.onnx</code> are not uploaded due to their huge file sizes.</p>
 
 <table>
   <thead>
     <tr>
-      <th>Output</th>
-      <th>Model</th>
-      <th>Resolution</th>
-      <th>Size(MB)</th>
-      <th>From</th>
+      <th>(Original)</th>
+      <th><a target="_blank" href="https://github.com/xuebinqin/U-2-Net">U²-Net</a></th>
+      <th><a target="_blank" href="https://github.com/dbpprt/u-2-net-portrait">U²-Net - Portrait matting</a></th>
+      <th><a target="_blank" href="https://github.com/xuebinqin/U-2-Net">U²-Net - Human Segmentation</a></th>
+      <th><a target="_blank" href="https://silueta.me/">Silueta</a></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1.jpg" width="250">
-        <hr>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2.jpg" width="250">
-      </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+        <td>
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1.jpg" width="250">
+        </td>
+        <td>
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_u2net.onnx.jpg" width="250">
+        </td>
+        <td>
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_u2netp.onnx.jpg" width="250">
+        </td>
+        <td>
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_u2net_human_seg.onnx.jpg" width="250">
+        </td>
+        <td>
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_silueta.onnx.jpg" width="250">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2.jpg" width="250">
+        </td>
+        <td>
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_u2net.onnx.jpg" width="250">
+        </td>
+        <td>
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_u2netp.onnx.jpg" width="250">
+        </td>
+        <td>
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_u2net_human_seg.onnx.jpg" width="250">
+        </td>
+        <td>
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_silueta.onnx.jpg" width="250">
+        </td>
     </tr>
     <tr>
-      <td>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_u2net.onnx.jpg" width="250">
-        <hr>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_u2net.onnx.jpg" width="250">
-      </td>
+      <td></td>
       <td>
         <a target="_blank" href="https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net.onnx">u2net.onnx</a>
-      </td>
-      <td>320</td>
-      <td>168</td>
-      <td>
-        <a target="_blank" href="https://github.com/danielgatis/rembg">danielgatis/rembg</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_u2netp.onnx.jpg" width="250">
-        <hr>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_u2netp.onnx.jpg" width="250">
       </td>
       <td>
         <a target="_blank" href="https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2netp.onnx">u2netp.onnx</a>
       </td>
-      <td>320</td>
-      <td>4</td>
-      <td>
-        <a target="_blank" href="https://github.com/danielgatis/rembg">danielgatis/rembg</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_u2net_human_seg.onnx.jpg" width="250">
-        <hr>
-         <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_u2net_human_seg.onnx.jpg" width="250">
-      </td>
       <td>
         <a target="_blank" href="https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net_human_seg.onnx">u2net_human_seg.onnx</a>
       </td>
-      <td>320</td>
-      <td>168</td>
-      <td>
-        <a target="_blank" href="https://github.com/danielgatis/rembg">danielgatis/rembg</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_silueta.onnx.jpg" width="250">
-        <hr>
-        <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_silueta.onnx.jpg" width="250">
-      </td>
       <td>
         <a target="_blank" href="https://github.com/danielgatis/rembg/releases/download/v0.0.0/silueta.onnx">silueta.onnx</a>
-      </td>
-      <td>320</td>
-      <td>42</td>
-      <td>
-        <a target="_blank" href="https://github.com/danielgatis/rembg">danielgatis/rembg</a>
       </td>
     </tr>
   </tbody>
@@ -118,7 +98,7 @@
 
 ### ✍ Read related posts here
 
-[**Article :: Link :: Image Background Removal Using Offline Client-side JavaScript**](#)
+[**Article :: Link :: (WIP)**](#)
 <br>
 
 [**Article :: Link :: Deploy Math OCR ONNX Model In Python Flask Web App**](https://towardsdev.com/deploy-math-ocr-onnx-model-in-python-flask-web-app-fd2aab576eb0)
@@ -126,10 +106,10 @@
 
 ### 🤝 Credits & Acknowledgement
 
-* Adapted from (<a href='https://github.com/pstwh/removebg-onnx-web-example' target='_blank'>removebg-onnx-web-example</a> by <a href='https://pstwh.github.io/' target='_blank'>pstwh</a>
+* Adapted from <a href='https://github.com/pstwh/removebg-onnx-web-example' target='_blank'>removebg-onnx-web-example</a> by <a href='https://pstwh.github.io/' target='_blank'>pstwh</a>
 * Original works of background removal models used (<code>u2net</code>) for segmentation can be found at <a href='https://github.com/xuebinqin/U-2-Net' target='_blank'>U²Net</a>
 
-#### LICENSE
+### LICENSE
 <p>This project is licensed under the MIT License.</p>
 
 <p>— <b>Join me on 📝 <b>Medium</b> at <a href='https://medium.com/@geek-cc' target='_blank'>~ ξ(🎀˶❛◡❛) @geek-cc</a></b></p>
