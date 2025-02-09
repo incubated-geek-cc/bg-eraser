@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/normalize.min.css">
+  <link rel="stylesheet" href="./css/custom.css">
+  <link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon.png" sizes="180x180" type="image/png">
+  <link rel="icon" href="./img/favicons/favicon-48x48.ico" sizes="48x48" type="image/x-icon">
+  <link rel="icon" href="./img/favicons/favicon-32x32.ico" sizes="32x32" type="image/x-icon">
+  <link rel="icon" href="./img/favicon-16x16.ico" sizes="16x16" type="image/x-icon">
+  <title>Background ✐Eraser | Offline Utility Built with ONNX Runtime Web</title>
+</head>
+<body>
+  <header>
+      <img src="./img/banner.png" style="height:calc(2.3rem + 1rem)"/>
+      <span>
+          Based on <a href="https://github.com/pstwh/removebg-onnx-web-example" target="_blank">removebg-onnx-web-example</a> | Built with <a href="https://www.npmjs.com/package/onnxruntime-web" target="_blank">ONNX Runtime Web</a> ✚ <a href='https://github.com/xuebinqin/U-2-Net' target='_blank'>U<span class="unicode">²</span>Net</a> | © Copyright <span id="yearDisplay">2025</span> by 
+          <a href="https://medium.com/@geek-cc" target="_blank">
+              <span class="symbol">ξ(</span>
+              <span class="emoji">🎀</span>
+              <span class="symbol">˶❛◡❛)</span>
+              <span class="unicode">ᵀᴴᴱ ᴿᴵᴮᴮᴼᴺ ᴳᴵᴿᴸ</span>
+          </a>
+      </span>
+  </header>
+  <main id="content">
+      <table id='previewOutputTable'>
+          <thead>
+              <tr>
+                  <th colspan='2'>👁️‍🗨️ Upload Preview</th>
+                  <th>👁️‍🗨️ Preview Output</th>
+              </tr> 
+              <tr>
+                  <th colspan='2' class='text-center'>
+                    <div id='previewUploadedImage'></div>
+                  </th>
+                  <th class='text-center'>
+                    <div id='previewOutputImage'></div>
+                  </th>
+              </tr> 
+          </thead>
+          <tbody>
+            <tr>
+                <th>File Name</th>
+                <td id='fileName'></td>
+                <td rowspan='5' class="text-center">
+                  <button id='saveImageBtn' type='button' class='btn btn-outline-custom-two rounded-pill m-1 pt-1 pb-1 pl-2 pr-2 symbol'>🖫 Save Output</button>
+                </td>
+            </tr>
+            <tr><th>Last Modified</th><td id='lastModified'></td></tr>
+            <tr><th>File Size</th><td id='fileSize'></td></tr>
+            <tr><th>Original <small>Width <strong>×</strong> Height</small></th><td id='imgDimensions'></td></tr>
+            <tr><th>File Type</th><td id='fileType'></td></tr>
+          </tbody>
+      </table>
+      <div id='dropFileZone'>
+          <form name='model-choice-form'>
+            <div class="radio">
+              <input id="u2netp" name="model" type="radio" value='u2netp.onnx' checked>
+              <label for="u2netp" class="radio-label">u2netp.onnx</label>
+            </div>
+          <!--   <div class="radio">
+              <input id="u2net" name="model" type="radio" value='u2net.onnx'>
+              <label for="u2net" class="radio-label">u2net.onnx</label>
+            </div>
+           
+            <div class="radio">
+              <input id="u2net_human_seg" name="model" type="radio" value="u2net_human_seg.onnx">
+              <label for="u2net_human_seg" class="radio-label">u2net_human_seg.onnx</label>
+            </div>
+           -->
+             <div class="radio">
+              <input id="silueta" name="model" type="radio" value="silueta.onnx">
+              <label for="silueta" class="radio-label">silueta.onnx</label>
+            </div>
+          </form>
+          <label id="dropFileZoneCaption">
+              <p class="symbol display-1">📤</p>
+              <label for='file-input'>
+                  <input id="file-input" type="file" accept="image/png,image/jpeg,image/jpg,image/webp"/>
+                  <p class="symbol display-2 lead">𝗗𝗿𝗮𝗴 🙴 𝗗𝗿𝗼𝗽</p>
+                  <br><span class='symbol text-custom-two display-5'>…𝗈𝗋 𝗦𝗲𝗹𝗲𝗰𝘁 𝗙𝗶𝗹𝗲</span>
+              </label>
+          </label>
+      </div>
+      <div id='loadingSpinner' class="spinner-border"></div>
+      <button id='resetBtn' class='btn btn-outline-primary symbol rounded-circle symbol'>🗘</button>
+  </main>              
+ 
+  <script src="./onnxruntime-web/dist/ort.min.js" type="text/javascript"></script>
+  <script src="./js/main.js" type="text/javascript"></script>
+</body>
+</html>
