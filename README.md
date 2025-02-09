@@ -26,7 +26,7 @@
 </div>
 
 
-#### Sample Outputs
+### Sample Outputs
 
 <p>Note that models <code>u2net.onnx</code> and <code>u2net_human_seg.onnx</code> are not uploaded due to their huge file sizes.</p>
 
@@ -43,40 +43,40 @@
   <tbody>
     <tr>
         <td>
-          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1.jpg" width="250">
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1.jpg" height="165">
         </td>
         <td>
-          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_u2net.onnx.jpg" width="250">
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_u2net.onnx.jpg" height="165">
         </td>
         <td>
-          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_u2netp.onnx.jpg" width="250">
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_u2netp.onnx.jpg" height="165">
         </td>
         <td>
-          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_u2net_human_seg.onnx.jpg" width="250">
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_u2net_human_seg.onnx.jpg" height="165">
         </td>
         <td>
-          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_silueta.onnx.jpg" width="250">
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample1_silueta.onnx.jpg" height="165">
         </td>
       </tr>
       <tr>
         <td>
-          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2.jpg" width="250">
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2.jpg" height="165">
         </td>
         <td>
-          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_u2net.onnx.jpg" width="250">
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_u2net.onnx.jpg" height="165">
         </td>
         <td>
-          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_u2netp.onnx.jpg" width="250">
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_u2netp.onnx.jpg" height="165">
         </td>
         <td>
-          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_u2net_human_seg.onnx.jpg" width="250">
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_u2net_human_seg.onnx.jpg" height="165">
         </td>
         <td>
-          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_silueta.onnx.jpg" width="250">
+          <img src="https://raw.githubusercontent.com/incubated-geek-cc/bg-eraser/main/examples/sample2_silueta.onnx.jpg" height="165">
         </td>
     </tr>
     <tr>
-      <td></td>
+      <td>---</td>
       <td>
         <a target="_blank" href="https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net.onnx">u2net.onnx</a>
       </td>
@@ -109,8 +109,8 @@
 * Adapted from <a href='https://github.com/pstwh/removebg-onnx-web-example' target='_blank'>removebg-onnx-web-example</a> by <a href='https://pstwh.github.io/' target='_blank'>pstwh</a>
 * Original works of background removal models used (<code>u2net</code>) for segmentation can be found at <a href='https://github.com/xuebinqin/U-2-Net' target='_blank'>U²Net</a>
 
-### LICENSE
-<p>This project is licensed under the MIT License.</p>
+#### LICENSE
+<p>This project is licensed under the <a href='https://github.com/incubated-geek-cc/bg-eraser/blob/main/LICENSE' target='_blank'>MIT License</a>.</p>
 
 <p>— <b>Join me on 📝 <b>Medium</b> at <a href='https://medium.com/@geek-cc' target='_blank'>~ ξ(🎀˶❛◡❛) @geek-cc</a></b></p>
 
