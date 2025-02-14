@@ -98,7 +98,7 @@
 
 ### ✍ Read related posts here
 
-[**Article :: Link :: (WIP)**](#)
+[**Article :: Link :: Navigating The AI/ML Landscape In Web Development?**](https://geek-cc.medium.com/navigating-the-ai-ml-landscape-in-web-development-887b0450d5c0)
 <br>
 
 [**Article :: Link :: Deploy Math OCR ONNX Model In Python Flask Web App**](https://towardsdev.com/deploy-math-ocr-onnx-model-in-python-flask-web-app-fd2aab576eb0)
